@@ -8,3 +8,8 @@ html, body {
 * {
 	box-sizing: border-box;
 }
+
+.btn {
+	height: 4rem;
+	width: 10rem;
+}
