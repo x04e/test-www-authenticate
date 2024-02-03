@@ -10,7 +10,7 @@
 		<script src="script.js"></script>
 	</head>
 	<body>
-		<h1>Test WWW-Authenticate<h1>
+		<h1>Test WWW-Authenticate</h1>
 		<p>View how your browser reacts to different WWW-Authenticate headers</p>
 		<ul>
 			<li><a href="test/basic">Basic</a></li>
@@ -24,5 +24,17 @@
 		<p id="wakelock-timer"></p>
 		<button type="button" class="btn" id="aquire-wakelock">Aquire</button>
 		<button type="button" class="btn" id="cancel-wakelock" disabled>Cancel</button>
+		<h2>File Input</h2>
+		</br>
+		<input type="file">File</input></br>
+		<input type="file" multiple="multiple">Multiple Files</input></br>
+		<input type="file" accept="*">File - accept:*</input></br>
+		<input type="file" accept="*" directory="" webkitdirectory="">File - accept:* - directory</input></br>
+		<input type="file" multiple accept="*">Multiple Files - accept:*</input></br>
+		<input type="file" multiple accept="image/*">Multiple Files - accept:image/*</input></br>
+		<input type="file" multiple accept="image/*,video/*">Multiple Files - accept:image/*,video/*</input></br>
+		<input type="file" multiple accept="text/*">Multiple Files - accept:text/*</input></br>
+		<input type="file">File</input></br>
+		<input type="file">File</input></br>
 	</body>
 </html>
